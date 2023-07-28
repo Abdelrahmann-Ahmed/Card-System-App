@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="section-1">
+                <div class="card">
+                    <div class="img"></div>
+                    <div class="data">
+                        <div>0000 0000 0000 0000</div>
+                        <div class="details">
+                            <div>FELICIA LEIRE</div>
+                            <div>00/00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="back">
+                    <div>000</div>
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="form">
+                    <label for="cardholdername">CARDHOLDER NAME</label>
+                    <input type="text" name="cardholdername">
+                    <label for="cardnumber">CARD NUMBER</label>
+                    <input type="number" name="cardnumber" >
+                    <div class="error1">Wrong format, numbers only</div>
+                    <div class="error2">Can't be more than 12 nums</div>
+                    <div>
+                        <label for="date">EXP. DATE (MM/YY)</label>
+                        <label for="cvc" style="margin-left: 90px;">CVC</label>
+                    </div>
+                    <div class="row">
+                        <input type="number" name="date" id="" >
+                        <input type="number" name="date" id="" >
+                        <input type="number" name="cvc" id=""  style="width: 115px; margin-left: 5px;">
+                    </div>
+                    <div class="error4">Ubdate the date</div>
+                    <div class="error3">Can't be blank</div>
+                    <button>Confirm</button>
+                </div>
+            </div>
+        </div>  
+        <script src="main.js"></script>
+    </body>
+</html>

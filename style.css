@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 757px;
+    width: 100%;
+    background-color: white;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-1 {
+    width: 35%;
+    position: relative;
+    background-image: url("bg-main-desktop.png");
+}
+
+.card {
+    width: 95%;
+    height: 210px;
+    background-image: url("bg-card-front.png");
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    right: -100px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .img {
+    width: 90px;
+    height: 50px;
+    border-radius: 70px;
+    background-image: url("card-logo.svg");
+    background-size: contain;
+} 
+
+.data {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    word-spacing: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.details {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+    word-spacing: 0px;
+    font-weight:100;
+}
+
+.back {
+    width: 95%;
+    height: 210px;
+    background-image: url("bg-card-back.png");
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    right: -200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.back div {
+    margin-right: 30px;
+}
+
+.section-2 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: small;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input  {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.row {
+    width: 110%;
+}
+
+.row input {
+    width: 88px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: rgb(26, 6, 26);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 103%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.error1,.error2 ,.error3 ,.error4{
+    height: 20px;
+    width: 250px;
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: none;
+}
+
+.nimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-image: url("icon-complete.svg");
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.nspan {
+    width: 60%;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.ndiv {
+    width: 70%;
+    font-size: medium;
+    color: gray;
+    margin: auto;
+    margin-bottom: 40px;
+}
